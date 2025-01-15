@@ -25,10 +25,14 @@ func main(){
 
 
 	i := 1;
-	for  i<1000 {
+	for {
 		fmt.Println(i," ABC")
 		i = i+1 
+		if i>1000 { break }
 	}
+
+
+
 }
 
 
